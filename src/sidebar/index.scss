@@ -1,0 +1,74 @@
+@import "../scss/common.scss";
+
+.wrap {
+    margin: 20px auto 60px;
+    max-width: 1280px;
+    box-sizing: border-box;
+    display: flex;
+    @include boxShadow;
+    .mask-wrap {
+        display: none;
+    }
+    .sidebar-wrap {
+        padding: 30px;
+        border-right: 1px solid #ccc;
+        .sidebar {
+            width: 139px;
+        }
+    }
+    .content-wrap {
+        width: 100%;
+        padding: 30px;
+        .content {
+            margin-bottom: 10px;
+        }
+    }
+    .question-icon {
+        display: none;
+        position: absolute;
+        bottom: 50px;
+        right: 10px;
+        font-size: 16px;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        background: rgba(0,0,0,0.3);
+        line-height: 41px;
+        text-align: center;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .wrap {
+        .mask-wrap {
+            display: block;
+            position: absolute;
+            background: #222;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            opacity: 0;
+            &.active {
+                opacity: 0.3;
+            }
+        }
+        .sidebar-wrap {
+            position: absolute;
+            background: #fff;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            border-right: 0;
+            border-left: 1px solid #ccc;
+            z-index: 1;
+            display: none;
+            &.active {
+                display: block
+            }
+        }    
+        .question-icon {
+            display: block;
+        }
+    }
+}

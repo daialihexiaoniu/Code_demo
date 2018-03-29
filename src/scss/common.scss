@@ -1,0 +1,23 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+}
+body {
+    font-family: "Roboto", Arial, "Microsoft YaHei", sans-serif;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+// mixin
+@mixin boxShadow {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+}
