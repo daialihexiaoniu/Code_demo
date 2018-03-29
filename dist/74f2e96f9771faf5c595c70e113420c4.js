@@ -71,7 +71,7 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({16:[function(require,module,exports) {
+})({10:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -101,7 +101,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],10:[function(require,module,exports) {
+},{}],5:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -132,13 +132,13 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":16}],7:[function(require,module,exports) {
+},{"./bundle-url":10}],3:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./fonts\\icomoon.eot":15,"./fonts\\icomoon.ttf":11,"./fonts\\icomoon.woff":12,"./fonts\\icomoon.svg":14,"_css_loader":10}],22:[function(require,module,exports) {
+},{"./fonts\\icomoon.eot":6,"./fonts\\icomoon.ttf":7,"./fonts\\icomoon.woff":8,"./fonts\\icomoon.svg":9,"_css_loader":5}],13:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -160,7 +160,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '51786' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '60131' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -261,7 +261,7 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}],24:[function(require,module,exports) {
+},{}],15:[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundlesLazy(bundles) {
@@ -340,7 +340,7 @@ LazyPromise.prototype.then = function (onSuccess, onError) {
 LazyPromise.prototype.catch = function (onError) {
   return this.promise || (this.promise = new Promise(this.executor).catch(onError));
 };
-},{"./bundle-url":16}],0:[function(require,module,exports) {
-var b=require(24);b.load([["5a72f19e28e4d83ef9dade4450f99a25.eot",15],["a2b46f67b5bfead61315566b417c0769.ttf",11],["98733cc4e2d83a8a7f6c6945e474a82c.woff",12],["e6bec1e6e212aa5512bd654a87d35eda.svg",14]]);
-},{}]},{},[22,0])
+},{"./bundle-url":10}],0:[function(require,module,exports) {
+var b=require(15);b.load([["5a72f19e28e4d83ef9dade4450f99a25.eot",6],["a2b46f67b5bfead61315566b417c0769.ttf",7],["98733cc4e2d83a8a7f6c6945e474a82c.woff",8],["e6bec1e6e212aa5512bd654a87d35eda.svg",9]]);
+},{}]},{},[13,0])
 //# sourceMappingURL=/dist/74f2e96f9771faf5c595c70e113420c4.map

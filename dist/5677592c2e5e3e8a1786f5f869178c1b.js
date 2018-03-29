@@ -71,7 +71,7 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({20:[function(require,module,exports) {
+})({12:[function(require,module,exports) {
 
 // shim for using process in browser
 var process = module.exports = {};
@@ -258,7 +258,7 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}],18:[function(require,module,exports) {
+},{}],11:[function(require,module,exports) {
 var global = (1,eval)("this");
 var process = require("process");
 /*!
@@ -10626,7 +10626,7 @@ if ( !noGlobal ) {
 return jQuery;
 } );
 
-},{"process":20}],6:[function(require,module,exports) {
+},{"process":12}],2:[function(require,module,exports) {
 'use strict';
 
 var _jquery = require('jquery');
@@ -10645,7 +10645,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
         (0, _jquery2.default)('.J-mask').removeClass('active');
     });
 });
-},{"jquery":18}],26:[function(require,module,exports) {
+},{"jquery":11}],13:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -10667,7 +10667,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '51786' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '60131' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -10768,5 +10768,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}]},{},[26,6])
+},{}]},{},[13,2])
 //# sourceMappingURL=/dist/5677592c2e5e3e8a1786f5f869178c1b.map
