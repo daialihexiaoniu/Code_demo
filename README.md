@@ -4,4 +4,6 @@
 npm init -y 初始化 package.json
 npm install node-sass --save 安装 sass 模块
 npm install --save babel-preset-env 安装 babel 模块
+
+parcel index.html  parcel 起应用
 ```
