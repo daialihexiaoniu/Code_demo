@@ -21,3 +21,11 @@ ul {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     background: #ffffff;
 }
+
+@mixin transform($transformStyle) {
+    -webkit-transform: $transformStyle;
+    -moz-transform: $transformStyle;
+    -ms-transform: $transformStyle;
+    -o-transform: $transformStyle;
+    transform: $transformStyle;
+}
