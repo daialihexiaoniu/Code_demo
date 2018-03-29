@@ -1,0 +1,146 @@
+section {
+    border-bottom: 1px solid #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    .title {
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 18px;
+        color: #b8a0a0;
+    }
+}
+
+// part-1
+@keyframes bouncing-loader {
+    from {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    to {
+      opacity: 0.1;
+      transform: translateY(-1rem);
+    }
+}
+
+.bouncing-loader {
+    display: flex;
+    justify-content: center;
+    div {
+        width: 1rem;
+        height: 1rem;
+        margin: 3rem 0.2rem;
+        background: #8385aa;
+        border-radius: 50%;
+        animation: bouncing-loader 0.6s infinite alternate;
+        &:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+        &:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+    }
+}
+
+
+/* Document scrollbar */
+.custom-scrollbar {
+    p {
+        width: 300px;
+        height: 100px;
+        overflow: overlay;
+        margin: 0 auto;
+    }
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+/* Scrollable element */
+.some-element::webkit-scrollbar {
+    color: #ccc;
+}
+
+// custom-text-selection
+// ::selection {
+//     background: aquamarine;
+//     color: black;
+// }
+.custom-text-selection::selection {
+    background: deeppink;
+    color: white;
+}
+
+
+// dount spinner
+@keyframes donut-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.donut {
+    display: inline-block;
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #7983ff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: donut-spin 1.2s linear infinite;
+}
+
+// Dynamic shadow
+.dynamic-shadow-parent {
+    position: relative;
+    z-index: 1;
+}
+.dynamic-shadow {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(75deg, #6d78ff, #00ffb8);
+    margin: 0 auto;
+    &::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: inherit;
+        top: 10px;
+        left: 10px;
+        filter: blur(0.4rem);
+        opacity: 0.7;
+        z-index: -1;
+    }
+}
+
+// hover 出现下划线
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #0087ca;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+    &:hover::after {
+        transform: scaleX(1);
+transform-origin: bottom left;
+    }
+}
