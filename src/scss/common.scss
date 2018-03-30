@@ -30,3 +30,11 @@ ul {
     -o-transform: $transformStyle;
     transform: $transformStyle;
 }
+
+@mixin clearfix {
+    &::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}

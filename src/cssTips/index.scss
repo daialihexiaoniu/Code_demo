@@ -1,5 +1,6 @@
+@import "../scss/common.scss";
 section {
-    border-bottom: 1px solid #f2f2f2;
+    border-bottom: 1px solid #521043;
     padding: 20px;
     text-align: center;
     .title {
@@ -62,7 +63,6 @@ section {
         box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
     }
 }
-
 
 // custom-text-selection
 // ::selection {
