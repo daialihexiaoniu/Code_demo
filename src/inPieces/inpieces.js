@@ -9,6 +9,7 @@ $(() => {
         'pieces-wrap-4',
         'pieces-wrap-5',
         'pieces-wrap-6',
+        'pieces-wrap-7',
     ];
 
     for(let i = 0, len = arr.length ; i < len; i++) {
