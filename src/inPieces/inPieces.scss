@@ -1006,3 +1006,126 @@
         background-color: #1D353A;
     }
 }
+
+.pieces-wrap-8 .shard-wrap {
+    &:nth-child(1) .shard {
+        clip-path: polygon(23.25% 43.286%, 31.25% 33.571%, 46.85% 36.286%);
+        background-color: #EFDCCD;
+    }
+    &:nth-child(2) .shard {
+        clip-path: polygon(32.5% 60%, 36.05% 55%, 41.75% 66.857%);
+        background-color: #7B7362;
+    }
+    &:nth-child(3) .shard {
+        clip-path: polygon(23.35% 43.286%, 34.8% 57.5%, 23.45% 56.143%);
+        background-color: #AE886D;
+    }
+    &:nth-child(4) .shard {
+        clip-path: polygon(23.45% 56.143%, 34.66% 57.3%, 22.45% 71.714%);
+        background-color: #D7C5A4;
+    }
+    &:nth-child(5) .shard {
+        clip-path: polygon(27.85% 65.429%, 33.05% 59.2%, 29.75% 85.857%);
+        background-color: #7F6B5F;
+    }
+    &:nth-child(6) .shard {
+        clip-path: polygon(23.25% 43.286%, 46.85% 36.286%, 35.05% 57.714%);
+        background-color: #DACDBC;
+    }
+    &:nth-child(7) .shard {
+        clip-path: polygon(22.45% 71.714%, 28.3% 64.714%, 24.65% 85.857%);
+        background-color: #F2E1C5;
+    }
+    &:nth-child(8) .shard {
+        clip-path: polygon(36.55% 54.714%, 46.85% 36.286%, 50.65% 52.286%);
+        background-color: #E9DCC4;
+    }
+    &:nth-child(9) .shard {
+        clip-path: polygon(36% 54.857%, 50.65% 52.286%, 41.85% 66.857%);
+        background-color: #CFBA91;
+    }
+    &:nth-child(10) .shard {
+        clip-path: polygon(41.75% 66.857%, 50.65% 52.143%, 56.05% 64.714%);
+        background-color: #BAAE96
+    }
+    &:nth-child(11) .shard {
+        clip-path: polygon(46.75% 36.429%, 54.35% 33%, 61.25% 36.429%);
+        background-color: #F3EADF;
+    }
+    &:nth-child(12) .shard {
+        clip-path: polygon(46.75% 36.429%, 61.15% 36.286%, 50.65% 52.143%);
+        background-color: #EBE1CB;
+    }
+    &:nth-child(13) .shard {
+        clip-path: polygon(50.4% 52.286%, 61.25% 36.1%, 60.96% 56.143%);
+        background-color: #DDCFB7;
+    }
+    &:nth-child(14) .shard {
+        clip-path: polygon(59.65% 63.286%, 63.65% 61.714%, 61.05% 86%);
+        background-color: #8A7B63;
+    }
+    &:nth-child(15) .shard {
+        clip-path: polygon(50.55% 52.286%, 60.85% 56.143%, 60.55% 75.143%);
+        background-color: #EBE1CB; 
+    }
+    &:nth-child(16) .shard {
+        clip-path: polygon(58.15% 69.714%, 60.45% 75%, 58.95% 85.714%);
+        background-color: #A89F92;
+    }
+    &:nth-child(17) .shard {
+        clip-path: polygon(61.25% 36.429%, 66.25% 60.5%, 60.73% 63%);
+        background-color: #78523B;
+    }
+    &:nth-child(18) .shard {
+        clip-path: polygon(61.15% 36.286%, 69.75% 23.429%, 73.75% 35.286%);
+        background-color: #A2785C;
+    }
+    &:nth-child(19) .shard {
+        clip-path:polygon(61.15% 36.2%, 73.7% 35.23%, 66.14% 60.7%);
+        background-color: #825D48;
+    }
+    &:nth-child(20) .shard {
+        clip-path: polygon(73.55% 35.286%, 76.25% 36%, 66.2% 60.429%);
+        background-color: #634C39;
+    }
+    &:nth-child(21) .shard {
+        clip-path: polygon(69.65% 23.429%, 74.15% 22.429%, 73.75% 35.286%);
+        background-color: #B98D5D;
+    }
+    &:nth-child(22) .shard {
+        clip-path: polygon(73.75% 35.286%, 74.15% 20%, 79.55% 28.143%);
+        background-color: #ECE1D5;
+    }
+    &:nth-child(23) .shard {
+        clip-path: polygon(79.45% 28%, 84.55% 34.286%, 75.95% 32.571%);
+        background-color: #D2C9C1;
+    }
+    &:nth-child(24) .shard {
+        clip-path:  polygon(75.95% 32.571%, 84.45% 34.143%, 84.15% 38.429%);
+        background-color: #B4ABA0;
+    }
+    &:nth-child(25) .shard {
+        clip-path: polygon(75.95% 32.429%, 83.45% 38%, 73.75% 35.286%);
+        background-color: #AFA491;
+    }
+    &:nth-child(26) .shard {
+        clip-path:  polygon(70.65% 23.286%, 69.95% 17.714%, 73.05% 22.857%);
+        background-color: #776244;
+    }
+    &:nth-child(27) .shard {
+        clip-path: polygon(73.05% 22.857%, 67.95% 7.714%, 75.35% 21.714%);
+        background-color: #514C49;
+    }
+    &:nth-child(28) .shard {
+        clip-path: polygon(50.55% 1.714%, 67.99% 7.857%, 68.98% 10.571%);
+        background-color: #312F34;
+    }
+    &:nth-child(29) .shard {
+        clip-path: polygon(39.15% 7.714%, 50.65% 1.714%, 52.95% 2.857%);
+        background-color: #272220;
+    }
+    &:nth-child(30) .shard {
+        clip-path: polygon(72.65% 22.857%, 77.95% 16.286%, 75.35% 22.714%);
+        background-color: #C8C0B9;
+    }
+}
