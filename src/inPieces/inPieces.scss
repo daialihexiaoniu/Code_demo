@@ -1,3 +1,18 @@
+@mixin animation($animation) {
+    animation: $animation;
+    -moz-animation: $animation;
+    -webkit-animation: $animation;
+}
+
+@keyframes loading {
+    from, to {
+        background-color: transparent;
+    }
+    50% {
+        background-color: #c8141473;
+    }
+}
+
 .wrap {
     width: 814px;
     height: 570px;
@@ -17,129 +32,228 @@
 
 .shard-wrap .shard {
     transition: all 1s ease;
+    &::before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0);
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
 }
 
 .pieces-wrap-0 .shard-wrap {
     &:nth-child(1) .shard {
         clip-path: polygon( 6.838% 29.324% ,13.337% 80.752% ,4.838% 68.324% );
         background-color: #a60438;
+        &::before {
+            @include animation(loading 1.3s 0.9s infinite);
+        }
     }
     &:nth-child(2) .shard {
         clip-path: polygon( 6.838% 29.324% ,19.637% 37.181% ,8.538% 42.895% );  
         background-color: #970741;
+        &::before {
+            @include animation(loading 1.3s 0.87s infinite);
+        }
     }
     &:nth-child(3) .shard {
         clip-path: polygon(6.838% 29.324%, 21.75% 30.5%, 19.9% 37.4%);
         background-color: #F6075A;
+        &::before {
+            @include animation(loading 1.3s 0.84s infinite);
+        }
     }
     &:nth-child(4) .shard {
         clip-path: polygon( 21.650% 30.609% ,18.050% 62.181% ,14.850% 54.181% );  
         background-color: #C80741;
+        &::before {
+            @include animation(loading 1.3s 0.81s infinite);
+        }
     }
     &:nth-child(5) .shard {
         clip-path: polygon(14.9% 54.2%, 18.2% 62.181%, 10.35% 57.609%);
         background-color: #970741;
+        &::before {
+            @include animation(loading 1.3s 0.78s infinite);
+        }
     }
     &:nth-child(6) .shard {
         clip-path: polygon( 21.750% 58.752% ,27.750% 25.609% ,23.350% 78.181% );
         background-color: #970741;
+        &::before {
+            @include animation(loading 1.3s 0.75s infinite);
+        }
     }
     &:nth-child(7) .shard {
         clip-path: polygon(27.65% 25.609%, 28.35% 73.181%, 23.35% 78.181%);
         background-color: #C80741;
+        &::before {
+            @include animation(loading 1.3s 0.72s infinite);
+        }
     }
     &:nth-child(8) .shard {
         clip-path: polygon( 31.450% 42.181% ,39.750% 72.038% ,32.850% 83.467% ); 
         background-color: #C80741;
+        &::before {
+            @include animation(loading 1.3s 0.69s infinite);
+        }
     }
     &:nth-child(9) .shard {
         clip-path: polygon(31.35% 42.4%, 45.65% 36.181%, 45.65% 45.895%); 
         background-color: #F6075A;
+        &::before {
+            @include animation(loading 1.3s 0.66s infinite);
+        }
     }
     &:nth-child(10) .shard {
         clip-path: polygon(31.5% 42.4%, 39.2% 44.181%, 34.1% 52.181%);  
         background-color: #970741;
+        &::before {
+            @include animation(loading 1.3s 0.63s infinite);
+        }
     }
     &:nth-child(11) .shard {
         clip-path: polygon(34.2% 52.324%, 45.55% 55.467%, 36.3% 60.181%);
         background-color: #c80741;
+        &::before {
+            @include animation(loading 1.3s 0.60s infinite);
+        }
     }
     &:nth-child(12) .shard {
         clip-path: polygon( 32.850% 83.324% ,39.650% 72.038% ,47.350% 73.181% ); 
         background-color: #8e0732;
+        &::before {
+            @include animation(loading 1.3s 0.57s infinite);
+        }
     }
     &:nth-child(13) .shard {
         clip-path: polygon( 50.350% 14.609% ,56.050% 24.181% ,49.750% 79.181% );
-        background-color: #c80741
+        background-color: #c80741;
+        &::before {
+            @include animation(loading 1.3s 0.54s infinite);
+        }
     }
     &:nth-child(14) .shard {
         clip-path: polygon( 50.450% 14.752% ,65.650% 26.324% ,55.950% 24.181% );
         background-color: #F6075A;
+        &::before {
+            @include animation(loading 1.3s 0.51s infinite);
+        }
     }
     &:nth-child(15) .shard {
         clip-path: polygon(49.65% 79.1%, 63.85% 75.3%, 68.85% 84.467%);
         background-color: #c80741;
+        &::before {
+            @include animation(loading 1.3s 0.48s infinite);
+        }
     }
     &:nth-child(16) .shard {
         clip-path: polygon( 50.850% 68.895% ,57.450% 77.181% ,49.750% 79.181% );
         background-color: #8e0732;
+        &::before {
+            @include animation(loading 1.3s 0.45s infinite);
+        }
     }
     &:nth-child(17) .shard {
         clip-path: polygon(58.05% 70.467%, 60.55% 29.895%, 60.9% 66.752%); 
         background-color: #d92451;
+        &::before {
+            @include animation(loading 1.3s 0.42s infinite);
+        }
     }
     &:nth-child(18) .shard {
         clip-path: polygon(60.45% 29.839%, 67% 39.839%, 60.8% 67%);
         background-color: #c80741;
+        &::before {
+            @include animation(loading 1.3s 0.39s infinite);
+        }
     }
     &:nth-child(19) .shard {
         clip-path: polygon( 60.550% 29.982% ,74.550% 38.696% ,66.950% 39.982% );
         background-color: #F6075A;
+        &::before {
+            @include animation(loading 1.3s 0.36s infinite);
+        }
     }
     &:nth-child(20) .shard {
         clip-path: polygon(64.75% 49.6%, 73.15% 52.982%, 62.95% 56.839%);
-        background-color: #d92451
+        background-color: #d92451;
+        &::before {
+            @include animation(loading 1.3s 0.33s infinite);
+        }
     }
     &:nth-child(21) .shard {
         clip-path: polygon(63% 56.982%, 64.75% 66%, 60.65% 66.982%);
         background-color: #970741;
+        &::before {
+            @include animation(loading 1.3s 0.30s infinite);
+        }
     }
     &:nth-child(23) .shard {
         clip-path: polygon(60.7% 66.9%, 72.45% 64.268%, 73.25% 73.696%);
-        background-color: #c80741
+        background-color: #c80741;
+        &::before {
+            @include animation(loading 1.3s 0.27s infinite);
+        }
     }
     &:nth-child(22) .shard {
         clip-path: polygon( 60.650% 66.839% ,73.250% 73.696% ,58.050% 70.268% );  
-        background-color: #8e0732
+        background-color: #8e0732;
+        &::before {
+            @include animation(loading 1.3s 0.24s infinite);
+        }
     }
     &:nth-child(24) .shard {
         clip-path: polygon( 77.550% 33.268% ,91.950% 28.982% ,92.550% 37.696% );
         background-color: #F6075A;
+        &::before {
+            @include animation(loading 1.3s 0.21s infinite);
+        }
     }
     &:nth-child(25) .shard {
         clip-path: polygon(77.55% 33.3%, 92.55% 37.8%, 88.95% 33.839%);
-        background-color: #8e0732
+        background-color: #8e0732;
+        &::before {
+            @include animation(loading 1.3s 0.18s infinite);
+        }
     }
     &:nth-child(26) .shard {
         clip-path: polygon( 77.450% 33.268% ,83.450% 50.268% ,78.250% 58.125% );   
-        background-color: #c80741
+        background-color: #c80741;
+        &::before {
+            @include animation(loading 1.3s 0.15s infinite);
+        }
     }
     
     &:nth-child(27) .shard {
         clip-path: polygon( 83.350% 50.268% ,92.650% 51.696% ,78.350% 57.982% );
-        background-color: #d92451
+        background-color: #d92451;
+        &::before {
+            @include animation(loading 1.3s 0.12s infinite);
+        }
     }
     &:nth-child(28) .shard {
         clip-path: polygon(86.6% 54.3%, 92.5% 51.65%, 95% 71.696%);
         background-color: #970741;
+        &::before {
+            @include animation(loading 1.3s 0.09s infinite);
+        }
     }
     &:nth-child(29) .shard {
         clip-path: polygon( 79.250% 68.125% ,91.850% 65.125% ,95.050% 71.554% );
-        background-color: #c80741
+        background-color: #c80741;
+        &::before {
+            @include animation(loading 1.3s 0.06s infinite);
+        }
     }
     &:nth-child(30) .shard {
         clip-path: polygon( 79.350% 68.125% ,94.950% 71.554% ,80.550% 74.125% );
         background-color: #8e0732;
+        &::before {
+            @include animation(loading 1.3s 0.03s infinite);
+        }
     }
 }
 
