@@ -37,7 +37,8 @@ $(() => {
 
     for(let i = 0, len = arr.length ; i < len; i++) {
         $(`.J-button-${i - 1}`).on('click', () => {
-            $('.J-wrap').removeClass(arr[i - 1]).addClass(arr[i]);
+            $('#wrap').attr('class', '');
+            $('#wrap').addClass('wrap '+ arr[i]);
         })
     }
 })
