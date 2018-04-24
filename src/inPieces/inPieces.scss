@@ -1,9 +1,9 @@
 @import "../scss/common.scss";
 
 @mixin animation($animation) {
-    animation: $animation;
     -moz-animation: $animation;
     -webkit-animation: $animation;
+    animation: $animation;
 }
 
 @keyframes loading {
