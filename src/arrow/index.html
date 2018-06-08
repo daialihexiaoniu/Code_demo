@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .arrow{
+            width: 64px;
+            position: relative;
+        }
+        .arrow-1 {
+            width: 64px;
+            /* background-color: #999; */
+            border-bottom: 1px dashed #000;
+            display: block;
+            height: 0;
+            position: relative;
+            transition: all 0.2s;
+            transition-delay: 0;
+            will-change: transform;
+        }
+        .arrow-1:before, .arrow-1:after {
+            border-top: 1px solid #000;
+            content: '';
+            display: block;
+            height: 0;
+            position: absolute;
+            top: 0;
+            right: 0;
+            transition: all 0.2s;
+            width: 8px;
+            transition-delay: 0.3s;
+            transition: all 0.5s;
+        }
+        .arrow-1:before {
+            transform-origin: top right;
+            transform: rotate(40deg);
+        }
+        .arrow-1:after {
+            transform-origin: bottom right;
+            transform: rotate(-40deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="arrow">
+        <div class="arrow-1"></div>
+    </div>
+</body>
+</html>
