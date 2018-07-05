@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #222; }
+
+body {
+  font-family: "Roboto", Arial, "Microsoft YaHei", sans-serif;
+  line-height: 1.5;
+  font-size: 14px; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }

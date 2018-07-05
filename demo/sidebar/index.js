@@ -1,5 +1,3 @@
-import $ from "jquery";
-
 $(() => {
     $('.J-question').on('click', () => {
         $('.J-sidebar').addClass('active');
