@@ -30,8 +30,29 @@ ul {
     transform: $transformStyle;
 }
 
+@mixin animation($animationStyle) {
+    -webkit-animation: $animationStyle;
+    -moz-animation: $animationStyle;
+    animation: $animationStyle;
+}
+
+@mixin keyframes($names) {
+    @-webkit-keyframes #{$names} {
+        @content;
+    }
+    @-moz-keyframes #{$names} {
+        @content;
+    }
+    @keyframes #{$names} {
+        @content;
+    }
+}
+
 @mixin clearfix {
     &::after {
+        content: '';
+        content: '';
+        content: '';
         content: '';
         display: block;
         clear: both;
