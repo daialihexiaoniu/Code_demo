@@ -3,6 +3,12 @@ html, body {
     padding: 0;
     color: #222;
 }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: "Roboto", Arial, "Microsoft YaHei", sans-serif;
     line-height: 1.5;
