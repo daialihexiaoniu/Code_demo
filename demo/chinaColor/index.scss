@@ -182,16 +182,21 @@ $list: (
 
 .color-wrapper {
     width: 50%;
+    .wrapper {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        border: 1px solid #ccc;
+        @each $name, $color-value in $list {
+            &.#{$name} {
+                background: #{$color-value};
+            }
+        }
+    }
 }
 
-.wrapper {
-    display: inline-block;
-    width: 100px;
+.color-content {
+    width: 50%;
     height: 100px;
     border: 1px solid #ccc;
-}
-@each $name, $color-value in $list {
-    &.#{$name} {
-        background: #{$color-value};
-    }
 }

@@ -1,42 +1,54 @@
 html, body {
   margin: 0;
   padding: 0;
-  color: #222; }
+  color: #222;
+}
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  outline: none; }
+  outline: none;
+}
 
 body {
   font-family: "Roboto", Arial, "Microsoft YaHei", sans-serif;
   line-height: 1.5;
-  font-size: 14px; }
+  font-size: 14px;
+}
 
 ul {
   list-style: none;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 strong {
-  font-weight: 600; }
+  font-weight: 600;
+}
 
 @keyframes glow {
   from {
-    filter: brightness(1); }
+    filter: brightness(1);
+  }
   to {
-    filter: brightness(1.15); } }
+    filter: brightness(1.15);
+  }
+}
 
 @keyframes left-antenna-twitch {
   to {
     left: -3px;
-    transform: rotate(-36deg); } }
+    transform: rotate(-36deg);
+  }
+}
 
 @keyframes right-antenna-twitch {
   to {
     right: -3px;
-    transform: rotate(36deg); } }
+    transform: rotate(36deg);
+  }
+}
 
 .filling, .checkbox-wrapper::after, .checkbox-wrapper .checkbox:checked + .checkmark, .checkbox-wrapper .checkmark.style-2, .checkbox-wrapper .checkmark.style-3 {
   top: -5.5px;
@@ -45,22 +57,28 @@ strong {
   left: -7.5px;
   border-radius: 5px;
   animation: glow 0.1s linear 0s infinite alternate;
-  box-shadow: inset 0px 0px 20px 2px rgba(0, 0, 0, 0.5); }
+  box-shadow: inset 0px 0px 20px 2px rgba(0, 0, 0, 0.5);
+}
 
 html, body {
-  height: 100%; }
+  height: 100%;
+}
 
 body {
-  background: #e97777; }
+  background: #e97777;
+}
 
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%; }
-  .container ul > li {
-    display: inline-block;
-    margin: 0 20px; }
+  height: 100%;
+}
+
+.container ul > li {
+  display: inline-block;
+  margin: 0 20px;
+}
 
 .checkbox-wrapper {
   display: block;
@@ -69,101 +87,152 @@ body {
   position: relative;
   border: 15px solid #343436;
   border-radius: 5px;
-  cursor: pointer; }
-  .checkbox-wrapper::after {
-    content: "";
-    display: block;
-    position: absolute;
-    background: #bebfd8; }
-  .checkbox-wrapper .checkbox {
-    display: none; }
-    .checkbox-wrapper .checkbox:checked {
-      display: none; }
-      .checkbox-wrapper .checkbox:checked + .checkmark {
-        border-radius: 4px; }
-        .checkbox-wrapper .checkbox:checked + .checkmark.style-1 {
-          transition: all 0.3s ease, background 1.2s ease;
-          background: #ffd12a; }
-        .checkbox-wrapper .checkbox:checked + .checkmark.style-2 {
-          background: #1ebcd8;
-          transition: left 0.3s ease 0.2s, right 0.3s ease 0.2s, background 0.5s linear 0.5s; }
-        .checkbox-wrapper .checkbox:checked + .checkmark.style-3 {
-          background: #ea27bd;
-          transition: top 0.5s ease 0.3s, bottom 0.5s ease 0.3s, background 0.5s linear 0.5s; }
-        .checkbox-wrapper .checkbox:checked + .checkmark.style-4 {
-          transition: none;
-          background: #78af5d;
-          animation: flicker 0.25s none 0s 2 normal, glow 0.1s linear 0s infinite alternate; }
+  cursor: pointer;
+}
+
+.checkbox-wrapper::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: #bebfd8;
+}
+
+.checkbox-wrapper .checkbox {
+  display: none;
+}
+
+.checkbox-wrapper .checkbox:checked {
+  display: none;
+}
+
+.checkbox-wrapper .checkbox:checked + .checkmark {
+  border-radius: 4px;
+}
+
+.checkbox-wrapper .checkbox:checked + .checkmark.style-1 {
+  transition: all 0.3s ease, background 1.2s ease;
+  background: #ffd12a;
+}
+
+.checkbox-wrapper .checkbox:checked + .checkmark.style-2 {
+  background: #1ebcd8;
+  transition: left 0.3s ease 0.2s, right 0.3s ease 0.2s, background 0.5s linear 0.5s;
+}
+
+.checkbox-wrapper .checkbox:checked + .checkmark.style-3 {
+  background: #ea27bd;
+  transition: top 0.5s ease 0.3s, bottom 0.5s ease 0.3s, background 0.5s linear 0.5s;
+}
+
+.checkbox-wrapper .checkbox:checked + .checkmark.style-4 {
+  transition: none;
+  background: #78af5d;
+  animation: flicker 0.25s none 0s 2 normal, glow 0.1s linear 0s infinite alternate;
+}
 
 @keyframes flicker {
   0%, 60%, 65%, 100% {
-    background: #78af5d; }
+    background: #78af5d;
+  }
   50% {
-    background: none; }
+    background: none;
+  }
   70% {
-    background: #8cff54; }
+    background: #8cff54;
+  }
   75% {
-    background: #103300; }
+    background: #103300;
+  }
   80% {
-    background: #50ff00; }
+    background: #50ff00;
+  }
   90% {
-    background: none; } }
-        .checkbox-wrapper .checkbox:checked + .checkmark.style-5 {
-          background: #ff2b2b;
-          animation: flicker-black 0.5s none 0s 1 normal, glow 0.1s linear 0s infinite alternate; }
+    background: none;
+  }
+}
+
+.checkbox-wrapper .checkbox:checked + .checkmark.style-5 {
+  background: #ff2b2b;
+  animation: flicker-black 0.5s none 0s 1 normal, glow 0.1s linear 0s infinite alternate;
+}
 
 @keyframes flicker-black {
   0%, 40%, 80% {
-    background: #ff2b2b; }
+    background: #ff2b2b;
+  }
   25%, 55%, 90% {
-    background: #000; } }
-      .checkbox-wrapper .checkbox:checked ~ .antenna.a-1 {
-        animation: left-antenna-twitch 0.2s linear 0s 4 alternate; }
-      .checkbox-wrapper .checkbox:checked ~ .antenna.a-2 {
-        animation: right-antenna-twitch 0.2s linear 0s 4 alternate; }
-  .checkbox-wrapper .checkmark {
-    position: absolute;
-    z-index: 1;
-    background: #000; }
-    .checkbox-wrapper .checkmark.style-1 {
-      top: 50%;
-      right: 50%;
-      left: 50%;
-      bottom: 50%;
-      border-radius: 50%;
-      transition: all 0.3s ease; }
-    .checkbox-wrapper .checkmark.style-2 {
-      border-radius: 10px;
-      right: calc(50% - 1px);
-      bottom: 150%;
-      left: calc(50% - 1px);
-      transition: left 0.3s ease 0s, right 0.3s ease 0s, bottom 0.3s ease 0.2s, background 0.5s linear 0s; }
-    .checkbox-wrapper .checkmark.style-3 {
-      top: 50%;
-      bottom: 50%;
-      transition: top 0.5s ease, bottom 0.5s ease, background 0.5s linear 0s; }
-    .checkbox-wrapper .checkmark.style-4 {
-      border-radius: 4px;
-      background: none; }
-  .checkbox-wrapper .antenna {
-    width: 3px;
-    height: 30px;
-    position: absolute;
-    top: -40px;
-    background: #343436; }
-    .checkbox-wrapper .antenna::after {
-      content: "";
-      display: block;
-      background: inherit;
-      width: 11px;
-      height: 11px;
-      position: relative;
-      right: 4px;
-      bottom: 2px;
-      border-radius: 50%; }
-    .checkbox-wrapper .antenna.a-1 {
-      left: 0px;
-      transform: rotate(-30deg); }
-    .checkbox-wrapper .antenna.a-2 {
-      right: 0px;
-      transform: rotate(30deg); }
+    background: #000;
+  }
+}
+
+.checkbox-wrapper .checkbox:checked ~ .antenna.a-1 {
+  animation: left-antenna-twitch 0.2s linear 0s 4 alternate;
+}
+
+.checkbox-wrapper .checkbox:checked ~ .antenna.a-2 {
+  animation: right-antenna-twitch 0.2s linear 0s 4 alternate;
+}
+
+.checkbox-wrapper .checkmark {
+  position: absolute;
+  z-index: 1;
+  background: #000;
+}
+
+.checkbox-wrapper .checkmark.style-1 {
+  top: 50%;
+  right: 50%;
+  left: 50%;
+  bottom: 50%;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.checkbox-wrapper .checkmark.style-2 {
+  border-radius: 10px;
+  right: calc(50% - 1px);
+  bottom: 150%;
+  left: calc(50% - 1px);
+  transition: left 0.3s ease 0s, right 0.3s ease 0s, bottom 0.3s ease 0.2s, background 0.5s linear 0s;
+}
+
+.checkbox-wrapper .checkmark.style-3 {
+  top: 50%;
+  bottom: 50%;
+  transition: top 0.5s ease, bottom 0.5s ease, background 0.5s linear 0s;
+}
+
+.checkbox-wrapper .checkmark.style-4 {
+  border-radius: 4px;
+  background: none;
+}
+
+.checkbox-wrapper .antenna {
+  width: 3px;
+  height: 30px;
+  position: absolute;
+  top: -40px;
+  background: #343436;
+}
+
+.checkbox-wrapper .antenna::after {
+  content: "";
+  display: block;
+  background: inherit;
+  width: 11px;
+  height: 11px;
+  position: relative;
+  right: 4px;
+  bottom: 2px;
+  border-radius: 50%;
+}
+
+.checkbox-wrapper .antenna.a-1 {
+  left: 0px;
+  transform: rotate(-30deg);
+}
+
+.checkbox-wrapper .antenna.a-2 {
+  right: 0px;
+  transform: rotate(30deg);
+}

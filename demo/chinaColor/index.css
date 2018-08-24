@@ -1,482 +1,648 @@
 .color-wrapper {
-  width: 50%; }
+  width: 50%;
+}
 
-.wrapper {
+.color-wrapper .wrapper {
   display: inline-block;
   width: 100px;
   height: 100px;
-  border: 1px solid #ccc; }
-
-.color1 {
-  background: #fdeff5; }
-
-.color2 {
-  background: #f9d2d7; }
-
-.color3 {
-  background: #f091a2; }
-
-.color4 {
-  background: #dfc3d6; }
-
-.color5 {
-  background: #e62488; }
-
-.color6 {
-  background: #e4007f; }
-
-.color7 {
-  background: #e62e8b; }
-
-.color8 {
-  background: #d05667; }
-
-.color9 {
-  background: #dc2059; }
-
-.color10 {
-  background: #e2757d; }
-
-.color11 {
-  background: #bf3b53; }
-
-.color12 {
-  background: #b53877; }
-
-.color13 {
-  background: #d01647; }
-
-.color14 {
-  background: #ef845c; }
-
-.color15 {
-  background: #ee7b51; }
-
-.color16 {
-  background: #ed6c00; }
-
-.color17 {
-  background: #e2644c; }
-
-.color18 {
-  background: #c24a2e; }
-
-.color19 {
-  background: #e9450a; }
-
-.color20 {
-  background: #e60012; }
-
-.color21 {
-  background: #e00022; }
-
-.color22 {
-  background: #c0452a; }
-
-.color23 {
-  background: #d34240; }
-
-.color24 {
-  background: #c63432; }
-
-.color25 {
-  background: #ab321b; }
-
-.color26 {
-  background: #893e3c; }
-
-.color27 {
-  background: #9e584d; }
-
-.color28 {
-  background: #7c3b3a; }
-
-.color29 {
-  background: #9d4733; }
-
-.color30 {
-  background: #ed752a; }
-
-.color31 {
-  background: #743242; }
-
-.color32 {
-  background: #a31624; }
-
-.color33 {
-  background: #7f0000; }
-
-.color34 {
-  background: #843e00; }
-
-.color35 {
-  background: #82351b; }
-
-.color36 {
-  background: #f2e33c; }
-
-.color37 {
-  background: #f8ed5f; }
-
-.color38 {
-  background: #fabf48; }
-
-.color39 {
-  background: #f2c310; }
-
-.color40 {
-  background: #fbbc0d; }
-
-.color41 {
-  background: #f08500; }
-
-.color42 {
-  background: #f8b33b; }
-
-.color43 {
-  background: #f49d29; }
-
-.color44 {
-  background: #e96014; }
-
-.color45 {
-  background: #dee250; }
-
-.color46 {
-  background: #ebad5c; }
-
-.color47 {
-  background: #e2842e; }
-
-.color48 {
-  background: #f7bc85; }
-
-.color49 {
-  background: #e37d33; }
-
-.color50 {
-  background: #c46927; }
-
-.color51 {
-  background: #e1af2e; }
-
-.color52 {
-  background: #c7a017; }
-
-.color53 {
-  background: #ec712d; }
-
-.color54 {
-  background: #b68631; }
-
-.color55 {
-  background: #995f1a; }
-
-.color56 {
-  background: #8e8668; }
-
-.color57 {
-  background: #946e4d; }
-
-.color58 {
-  background: #74572a; }
-
-.color59 {
-  background: #784720; }
-
-.color60 {
-  background: #89472e; }
-
-.color61 {
-  background: #d8eded; }
-
-.color62 {
-  background: #c5e5eb; }
-
-.color63 {
-  background: #8ecfeb; }
-
-.color64 {
-  background: #3db3e0; }
-
-.color65 {
-  background: #c6d6ee; }
-
-.color66 {
-  background: #8c9cb9; }
-
-.color67 {
-  background: #5d8095; }
-
-.color68 {
-  background: #58b8bd; }
-
-.color69 {
-  background: #364796; }
-
-.color70 {
-  background: #2c96b7; }
-
-.color71 {
-  background: #004396; }
-
-.color72 {
-  background: #003d91; }
-
-.color73 {
-  background: #2a2164; }
-
-.color74 {
-  background: #073e61; }
-
-.color75 {
-  background: #002d74; }
-
-.color76 {
-  background: #303e51; }
-
-.color77 {
-  background: #002642; }
-
-.color78 {
-  background: #223b66; }
-
-.color79 {
-  background: #303e51; }
-
-.color80 {
-  background: #dbe9b8; }
-
-.color81 {
-  background: #bfddaa; }
-
-.color82 {
-  background: #7cb717; }
-
-.color83 {
-  background: #b4ca23; }
-
-.color84 {
-  background: #7cb717; }
-
-.color85 {
-  background: #88bc36; }
-
-.color86 {
-  background: #7bb83a; }
-
-.color87 {
-  background: #4faa49; }
-
-.color88 {
-  background: #279d2a; }
-
-.color89 {
-  background: #00972d; }
-
-.color90 {
-  background: #008734; }
-
-.color91 {
-  background: #1b6a2c; }
-
-.color92 {
-  background: #00742d; }
-
-.color93 {
-  background: #2b4934; }
-
-.color94 {
-  background: #58aa6e; }
-
-.color95 {
-  background: #6c925b; }
-
-.color96 {
-  background: #627c4e; }
-
-.color97 {
-  background: #3e835d; }
-
-.color98 {
-  background: #d6e7e1; }
-
-.color99 {
-  background: #abbfb6; }
-
-.color100 {
-  background: #84c5a7; }
-
-.color101 {
-  background: #58b59f; }
-
-.color102 {
-  background: #23a799; }
-
-.color103 {
-  background: #549f9d; }
-
-.color104 {
-  background: #45ac7a; }
-
-.color105 {
-  background: #37a88a; }
-
-.color106 {
-  background: #008d88; }
-
-.color107 {
-  background: #325152; }
-
-.color108 {
-  background: #3f7b6f; }
-
-.color109 {
-  background: #6c5d20; }
-
-.color110 {
-  background: #d5c6e1; }
-
-.color111 {
-  background: #d9b8c3; }
-
-.color112 {
-  background: #b48fbf; }
-
-.color113 {
-  background: #9990c3; }
-
-.color114 {
-  background: #8f83bb; }
-
-.color115 {
-  background: #6a599f; }
-
-.color116 {
-  background: #5a257c; }
-
-.color117 {
-  background: #b22271; }
-
-.color118 {
-  background: #3c183a; }
-
-.color119 {
-  background: #2a2752; }
-
-.color120 {
-  background: #4e2748; }
-
-.color121 {
-  background: #3e2e59; }
-
-.color122 {
-  background: #3a1914; }
-
-.color123 {
-  background: #443250; }
-
-.color124 {
-  background: #3d4d59; }
-
-.color125 {
-  background: #23464c; }
-
-.color126 {
-  background: #2c383c; }
-
-.color127 {
-  background: #2d2c3d; }
-
-.color128 {
-  background: #46393e; }
-
-.color129 {
-  background: #524544; }
-
-.color130 {
-  background: #553b39; }
-
-.color131 {
-  background: #391611; }
-
-.color132 {
-  background: #4a402e; }
-
-.color133 {
-  background: #0b0d14; }
-
-.color134 {
-  background: #121217; }
-
-.color135 {
-  background: #c4ced7; }
-
-.color136 {
-  background: #617375; }
-
-.color137 {
-  background: #80898e; }
-
-.color138 {
-  background: #8f9295; }
-
-.color139 {
-  background: #5f6468; }
-
-.color140 {
-  background: #76787a; }
-
-.color141 {
-  background: #535252; }
-
-.color142 {
-  background: #eef5ec; }
-
-.color143 {
-  background: #ebf6fc; }
-
-.color144 {
-  background: #d8e0e5; }
-
-.color145 {
-  background: #e2ecf3; }
-
-.color146 {
-  background: #dce0e7; }
-
-.color147 {
-  background: #c4ced7; }
-
-.color148 {
-  background: #ececf1; }
-
-.color149 {
-  background: #ededec; }
-
-.color150 {
-  background: #fffbce; }
-
-.color151 {
-  background: #fbebe1; }
-
-.color152 {
-  background: #ede6d4; }
-
-.color153 {
-  background: #e5d39e; }
-
-.color154 {
-  background: #eeac00; }
-
-.color155 {
-  background: #f9c500; }
-
-.color156 {
-  background: #ddbc62; }
-
-.color157 {
-  background: #e1dfe8; }
-
-.color158 {
-  background: #b0bdb8; }
+  border: 1px solid #ccc;
+}
+
+.color-wrapper .wrapper.color1 {
+  background: #fdeff5;
+}
+
+.color-wrapper .wrapper.color2 {
+  background: #f9d2d7;
+}
+
+.color-wrapper .wrapper.color3 {
+  background: #f091a2;
+}
+
+.color-wrapper .wrapper.color4 {
+  background: #dfc3d6;
+}
+
+.color-wrapper .wrapper.color5 {
+  background: #e62488;
+}
+
+.color-wrapper .wrapper.color6 {
+  background: #e4007f;
+}
+
+.color-wrapper .wrapper.color7 {
+  background: #e62e8b;
+}
+
+.color-wrapper .wrapper.color8 {
+  background: #d05667;
+}
+
+.color-wrapper .wrapper.color9 {
+  background: #dc2059;
+}
+
+.color-wrapper .wrapper.color10 {
+  background: #e2757d;
+}
+
+.color-wrapper .wrapper.color11 {
+  background: #bf3b53;
+}
+
+.color-wrapper .wrapper.color12 {
+  background: #b53877;
+}
+
+.color-wrapper .wrapper.color13 {
+  background: #d01647;
+}
+
+.color-wrapper .wrapper.color14 {
+  background: #ef845c;
+}
+
+.color-wrapper .wrapper.color15 {
+  background: #ee7b51;
+}
+
+.color-wrapper .wrapper.color16 {
+  background: #ed6c00;
+}
+
+.color-wrapper .wrapper.color17 {
+  background: #e2644c;
+}
+
+.color-wrapper .wrapper.color18 {
+  background: #c24a2e;
+}
+
+.color-wrapper .wrapper.color19 {
+  background: #e9450a;
+}
+
+.color-wrapper .wrapper.color20 {
+  background: #e60012;
+}
+
+.color-wrapper .wrapper.color21 {
+  background: #e00022;
+}
+
+.color-wrapper .wrapper.color22 {
+  background: #c0452a;
+}
+
+.color-wrapper .wrapper.color23 {
+  background: #d34240;
+}
+
+.color-wrapper .wrapper.color24 {
+  background: #c63432;
+}
+
+.color-wrapper .wrapper.color25 {
+  background: #ab321b;
+}
+
+.color-wrapper .wrapper.color26 {
+  background: #893e3c;
+}
+
+.color-wrapper .wrapper.color27 {
+  background: #9e584d;
+}
+
+.color-wrapper .wrapper.color28 {
+  background: #7c3b3a;
+}
+
+.color-wrapper .wrapper.color29 {
+  background: #9d4733;
+}
+
+.color-wrapper .wrapper.color30 {
+  background: #ed752a;
+}
+
+.color-wrapper .wrapper.color31 {
+  background: #743242;
+}
+
+.color-wrapper .wrapper.color32 {
+  background: #a31624;
+}
+
+.color-wrapper .wrapper.color33 {
+  background: #7f0000;
+}
+
+.color-wrapper .wrapper.color34 {
+  background: #843e00;
+}
+
+.color-wrapper .wrapper.color35 {
+  background: #82351b;
+}
+
+.color-wrapper .wrapper.color36 {
+  background: #f2e33c;
+}
+
+.color-wrapper .wrapper.color37 {
+  background: #f8ed5f;
+}
+
+.color-wrapper .wrapper.color38 {
+  background: #fabf48;
+}
+
+.color-wrapper .wrapper.color39 {
+  background: #f2c310;
+}
+
+.color-wrapper .wrapper.color40 {
+  background: #fbbc0d;
+}
+
+.color-wrapper .wrapper.color41 {
+  background: #f08500;
+}
+
+.color-wrapper .wrapper.color42 {
+  background: #f8b33b;
+}
+
+.color-wrapper .wrapper.color43 {
+  background: #f49d29;
+}
+
+.color-wrapper .wrapper.color44 {
+  background: #e96014;
+}
+
+.color-wrapper .wrapper.color45 {
+  background: #dee250;
+}
+
+.color-wrapper .wrapper.color46 {
+  background: #ebad5c;
+}
+
+.color-wrapper .wrapper.color47 {
+  background: #e2842e;
+}
+
+.color-wrapper .wrapper.color48 {
+  background: #f7bc85;
+}
+
+.color-wrapper .wrapper.color49 {
+  background: #e37d33;
+}
+
+.color-wrapper .wrapper.color50 {
+  background: #c46927;
+}
+
+.color-wrapper .wrapper.color51 {
+  background: #e1af2e;
+}
+
+.color-wrapper .wrapper.color52 {
+  background: #c7a017;
+}
+
+.color-wrapper .wrapper.color53 {
+  background: #ec712d;
+}
+
+.color-wrapper .wrapper.color54 {
+  background: #b68631;
+}
+
+.color-wrapper .wrapper.color55 {
+  background: #995f1a;
+}
+
+.color-wrapper .wrapper.color56 {
+  background: #8e8668;
+}
+
+.color-wrapper .wrapper.color57 {
+  background: #946e4d;
+}
+
+.color-wrapper .wrapper.color58 {
+  background: #74572a;
+}
+
+.color-wrapper .wrapper.color59 {
+  background: #784720;
+}
+
+.color-wrapper .wrapper.color60 {
+  background: #89472e;
+}
+
+.color-wrapper .wrapper.color61 {
+  background: #d8eded;
+}
+
+.color-wrapper .wrapper.color62 {
+  background: #c5e5eb;
+}
+
+.color-wrapper .wrapper.color63 {
+  background: #8ecfeb;
+}
+
+.color-wrapper .wrapper.color64 {
+  background: #3db3e0;
+}
+
+.color-wrapper .wrapper.color65 {
+  background: #c6d6ee;
+}
+
+.color-wrapper .wrapper.color66 {
+  background: #8c9cb9;
+}
+
+.color-wrapper .wrapper.color67 {
+  background: #5d8095;
+}
+
+.color-wrapper .wrapper.color68 {
+  background: #58b8bd;
+}
+
+.color-wrapper .wrapper.color69 {
+  background: #364796;
+}
+
+.color-wrapper .wrapper.color70 {
+  background: #2c96b7;
+}
+
+.color-wrapper .wrapper.color71 {
+  background: #004396;
+}
+
+.color-wrapper .wrapper.color72 {
+  background: #003d91;
+}
+
+.color-wrapper .wrapper.color73 {
+  background: #2a2164;
+}
+
+.color-wrapper .wrapper.color74 {
+  background: #073e61;
+}
+
+.color-wrapper .wrapper.color75 {
+  background: #002d74;
+}
+
+.color-wrapper .wrapper.color76 {
+  background: #303e51;
+}
+
+.color-wrapper .wrapper.color77 {
+  background: #002642;
+}
+
+.color-wrapper .wrapper.color78 {
+  background: #223b66;
+}
+
+.color-wrapper .wrapper.color79 {
+  background: #303e51;
+}
+
+.color-wrapper .wrapper.color80 {
+  background: #dbe9b8;
+}
+
+.color-wrapper .wrapper.color81 {
+  background: #bfddaa;
+}
+
+.color-wrapper .wrapper.color82 {
+  background: #7cb717;
+}
+
+.color-wrapper .wrapper.color83 {
+  background: #b4ca23;
+}
+
+.color-wrapper .wrapper.color84 {
+  background: #7cb717;
+}
+
+.color-wrapper .wrapper.color85 {
+  background: #88bc36;
+}
+
+.color-wrapper .wrapper.color86 {
+  background: #7bb83a;
+}
+
+.color-wrapper .wrapper.color87 {
+  background: #4faa49;
+}
+
+.color-wrapper .wrapper.color88 {
+  background: #279d2a;
+}
+
+.color-wrapper .wrapper.color89 {
+  background: #00972d;
+}
+
+.color-wrapper .wrapper.color90 {
+  background: #008734;
+}
+
+.color-wrapper .wrapper.color91 {
+  background: #1b6a2c;
+}
+
+.color-wrapper .wrapper.color92 {
+  background: #00742d;
+}
+
+.color-wrapper .wrapper.color93 {
+  background: #2b4934;
+}
+
+.color-wrapper .wrapper.color94 {
+  background: #58aa6e;
+}
+
+.color-wrapper .wrapper.color95 {
+  background: #6c925b;
+}
+
+.color-wrapper .wrapper.color96 {
+  background: #627c4e;
+}
+
+.color-wrapper .wrapper.color97 {
+  background: #3e835d;
+}
+
+.color-wrapper .wrapper.color98 {
+  background: #d6e7e1;
+}
+
+.color-wrapper .wrapper.color99 {
+  background: #abbfb6;
+}
+
+.color-wrapper .wrapper.color100 {
+  background: #84c5a7;
+}
+
+.color-wrapper .wrapper.color101 {
+  background: #58b59f;
+}
+
+.color-wrapper .wrapper.color102 {
+  background: #23a799;
+}
+
+.color-wrapper .wrapper.color103 {
+  background: #549f9d;
+}
+
+.color-wrapper .wrapper.color104 {
+  background: #45ac7a;
+}
+
+.color-wrapper .wrapper.color105 {
+  background: #37a88a;
+}
+
+.color-wrapper .wrapper.color106 {
+  background: #008d88;
+}
+
+.color-wrapper .wrapper.color107 {
+  background: #325152;
+}
+
+.color-wrapper .wrapper.color108 {
+  background: #3f7b6f;
+}
+
+.color-wrapper .wrapper.color109 {
+  background: #6c5d20;
+}
+
+.color-wrapper .wrapper.color110 {
+  background: #d5c6e1;
+}
+
+.color-wrapper .wrapper.color111 {
+  background: #d9b8c3;
+}
+
+.color-wrapper .wrapper.color112 {
+  background: #b48fbf;
+}
+
+.color-wrapper .wrapper.color113 {
+  background: #9990c3;
+}
+
+.color-wrapper .wrapper.color114 {
+  background: #8f83bb;
+}
+
+.color-wrapper .wrapper.color115 {
+  background: #6a599f;
+}
+
+.color-wrapper .wrapper.color116 {
+  background: #5a257c;
+}
+
+.color-wrapper .wrapper.color117 {
+  background: #b22271;
+}
+
+.color-wrapper .wrapper.color118 {
+  background: #3c183a;
+}
+
+.color-wrapper .wrapper.color119 {
+  background: #2a2752;
+}
+
+.color-wrapper .wrapper.color120 {
+  background: #4e2748;
+}
+
+.color-wrapper .wrapper.color121 {
+  background: #3e2e59;
+}
+
+.color-wrapper .wrapper.color122 {
+  background: #3a1914;
+}
+
+.color-wrapper .wrapper.color123 {
+  background: #443250;
+}
+
+.color-wrapper .wrapper.color124 {
+  background: #3d4d59;
+}
+
+.color-wrapper .wrapper.color125 {
+  background: #23464c;
+}
+
+.color-wrapper .wrapper.color126 {
+  background: #2c383c;
+}
+
+.color-wrapper .wrapper.color127 {
+  background: #2d2c3d;
+}
+
+.color-wrapper .wrapper.color128 {
+  background: #46393e;
+}
+
+.color-wrapper .wrapper.color129 {
+  background: #524544;
+}
+
+.color-wrapper .wrapper.color130 {
+  background: #553b39;
+}
+
+.color-wrapper .wrapper.color131 {
+  background: #391611;
+}
+
+.color-wrapper .wrapper.color132 {
+  background: #4a402e;
+}
+
+.color-wrapper .wrapper.color133 {
+  background: #0b0d14;
+}
+
+.color-wrapper .wrapper.color134 {
+  background: #121217;
+}
+
+.color-wrapper .wrapper.color135 {
+  background: #c4ced7;
+}
+
+.color-wrapper .wrapper.color136 {
+  background: #617375;
+}
+
+.color-wrapper .wrapper.color137 {
+  background: #80898e;
+}
+
+.color-wrapper .wrapper.color138 {
+  background: #8f9295;
+}
+
+.color-wrapper .wrapper.color139 {
+  background: #5f6468;
+}
+
+.color-wrapper .wrapper.color140 {
+  background: #76787a;
+}
+
+.color-wrapper .wrapper.color141 {
+  background: #535252;
+}
+
+.color-wrapper .wrapper.color142 {
+  background: #eef5ec;
+}
+
+.color-wrapper .wrapper.color143 {
+  background: #ebf6fc;
+}
+
+.color-wrapper .wrapper.color144 {
+  background: #d8e0e5;
+}
+
+.color-wrapper .wrapper.color145 {
+  background: #e2ecf3;
+}
+
+.color-wrapper .wrapper.color146 {
+  background: #dce0e7;
+}
+
+.color-wrapper .wrapper.color147 {
+  background: #c4ced7;
+}
+
+.color-wrapper .wrapper.color148 {
+  background: #ececf1;
+}
+
+.color-wrapper .wrapper.color149 {
+  background: #ededec;
+}
+
+.color-wrapper .wrapper.color150 {
+  background: #fffbce;
+}
+
+.color-wrapper .wrapper.color151 {
+  background: #fbebe1;
+}
+
+.color-wrapper .wrapper.color152 {
+  background: #ede6d4;
+}
+
+.color-wrapper .wrapper.color153 {
+  background: #e5d39e;
+}
+
+.color-wrapper .wrapper.color154 {
+  background: #eeac00;
+}
+
+.color-wrapper .wrapper.color155 {
+  background: #f9c500;
+}
+
+.color-wrapper .wrapper.color156 {
+  background: #ddbc62;
+}
+
+.color-wrapper .wrapper.color157 {
+  background: #e1dfe8;
+}
+
+.color-wrapper .wrapper.color158 {
+  background: #b0bdb8;
+}
+
+.color-content {
+  width: 50%;
+  height: 100px;
+  border: 1px solid #ccc;
+}
