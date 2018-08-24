@@ -1,0 +1,197 @@
+
+
+$list: (
+    // 中国红
+    color1: #fdeff5, // 浅粉色
+    color2: #f9d2d7, // 粉红
+    color3: #f091a2, // 桃红
+    color4: #dfc3d6, // 水红
+    color5: #e62488, // 洋红
+    color6: #e4007f, // 品红
+    color7: #e62e8b, // 玫瑰红
+    color8: #d05667, // 海棠红
+    color9: #dc2059, // 樱桃色
+    color10: #e2757d, // 嫣红
+    color11: #bf3b53, // 茜色
+    color12: #b53877, // 胭脂红
+    color13: #d01647, // 赫赤
+    color14: #ef845c, // 砖红
+    color15: #ee7b51, // 珊瑚红
+    color16: #ed6c00, // 朱红
+    color17: #e2644c, // 铅丹色
+    color18: #c24a2e, // 妃色
+    color19: #e9450a, // 猩红
+    color20: #e60012, // 大红
+    color21: #e00022, // 石榴红
+    color22: #c0452a, // 枣红
+    color23: #d34240, // 豇豆红
+    color24: #c63432, // 银红
+    color25: #ab321b, // 铁锈红
+    color26: #893e3c, // 长春色
+    color27: #9e584d, // 檀色
+    color28: #7c3b3a, // 豆沙色
+    color29: #9d4733, // 茶色
+    color30: #ed752a, // 杏红
+    color31: #743242, // 绛紫
+    color32: #a31624, // 殷红
+    color33: #7f0000, // 棕
+    color34: #843e00, // 栗子色
+    color35: #82351b, // 棕褐
+
+    // 琉璃黄
+    color36: #f2e33c, // 明黄
+    color37: #f8ed5f, // 樱草黄
+    color38: #fabf48, // 栀黄
+    color39: #f2c310, // 米黄
+    color40: #fbbc0d, // 藤黄
+    color41: #f08500, // 橙黄
+    color42: #f8b33b, // 蛋黄
+    color43: #f49d29, // 杏黄
+    color44: #e96014, // 橘红
+    color45: #dee250, // 鹅黄
+    color46: #ebad5c, // 姜黄
+    color47: #e2842e, // 枯黄
+    color48: #f7bc85, // 密合色
+    color49: #e37d33, // 黄栌色
+    color50: #c46927, // 琥珀色
+    color51: #e1af2e, // 土黄
+    color52: #c7a017, // 秋香色
+    color53: #ec712d, // 橘黄
+    color54: #b68631, // 昏黄
+    color55: #995f1a, // 棕黄
+    color56: #8e8668, // 苍黄
+    color57: #946e4d, // 驼色
+    color58: #74572a, // 秋色
+    color59: #784720, // 棕黑
+    color60: #89472e, // 赫色
+
+    // 青花蓝
+    color61: #d8eded, // 水蓝
+    color62: #c5e5eb, // 粉蓝
+    color63: #8ecfeb, // 浅蓝
+    color64: #3db3e0, // 天蓝
+    color65: #c6d6ee, // 淡青
+    color66: #8c9cb9, // 灰蓝
+    color67: #5d8095, // 苍青
+    color68: #58b8bd, // 碧蓝
+    color69: #364796, // 宝蓝
+    color70: #2c96b7, // 孔雀蓝
+    color71: #004396, // 琉璃色
+    color72: #003d91, // 群青
+    color73: #2a2164, // 藏蓝
+    color74: #073e61, // 靛蓝
+    color75: #002d74, // 绀蓝
+    color76: #303e51, // 黛蓝
+    color77: #002642, // 绀色
+    color78: #223b66, // 石青
+    color79: #303e51, // 鸦青
+
+    // 国槐绿
+    color80: #dbe9b8, // 浅绿
+    color81: #bfddaa, // 梅子青
+    color82: #7cb717, // 葱黄
+    color83: #b4ca23, // 芽绿
+    color84: #7cb717, // 嫩绿
+    color85: #88bc36, // 豆绿
+    color86: #7bb83a, // 葱绿
+    color87: #4faa49, // 草绿
+    color88: #279d2a, // 油绿
+    color89: #00972d, // 青翠色
+    color90: #008734, // 翡翠色
+    color91: #1b6a2c, // 深绿
+    color92: #00742d, // 松花色
+    color93: #2b4934, // 松柏绿
+    color94: #58aa6e, // 艾绿
+    color95: #6c925b, // 柳绿
+    color96: #627c4e, // 竹青
+    color97: #3e835d, // 苍翠
+    color98: #d6e7e1, // 鸭蛋青
+    color99: #abbfb6, // 蟹壳青
+    color100: #84c5a7, // 白青
+    color101: #58b59f, // 湖绿
+    color102: #23a799, // 粉绿
+    color103: #549f9d, // 秘色
+    color104: #45ac7a, // 碧绿
+    color105: #37a88a, // 青碧
+    color106: #008d88, // 孔雀绿
+    color107: #325152, // 黛绿
+    color108: #3f7b6f, // 铜绿
+    color109: #6c5d20, // 棕榈
+
+    // 富贵紫
+    color110: #d5c6e1, // 淡紫
+    color111: #d9b8c3, // 藕荷色
+    color112: #b48fbf, // 丁香色
+    color113: #9990c3, // 雪青
+    color114: #8f83bb, // 棟色
+    color115: #6a599f, // 紫藤色
+    color116: #5a257c, // 青莲
+    color117: #b22271, // 牡丹色
+    color118: #3c183a, // 紫棠
+    color119: #2a2752, // 绀紫
+    color120: #4e2748, // 葡萄色
+    color121: #3e2e59, // 紫草色
+    color122: #3a1914, // 紫檀色
+    color123: #443250, // 黛紫
+
+    // 水墨黑
+    color124: #3d4d59, // 黛色
+    color125: #23464c, // 煤烟色
+    color126: #2c383c, // 墨色
+    color127: #2d2c3d, // 玄青
+    color128: #46393e, // 乌色
+    color129: #524544, // 黝色
+    color130: #553b39, // 缁色
+    color131: #391611, // 玄色
+    color132: #4a402e, // 黧
+    color133: #0b0d14, // 皂色
+    color134: #121217, // 漆黑
+
+    // 长城灰
+    color135: #c4ced7, // 浅灰
+    color136: #617375, // 苍色
+    color137: #80898e, // 藕灰
+    color138: #8f9295, // 银鼠色
+    color139: #5f6468, // 铅色
+    color140: #76787a, // 灰鼠色
+    color141: #535252, // 墨灰
+
+    // 玉脂白
+    color142: #eef5ec, // 荼白
+    color143: #ebf6fc, // 雪白
+    color144: #d8e0e5, // 月白
+    color145: #e2ecf3, // 霜色
+    color146: #dce0e7, // 铅白
+    color147: #c4ced7, // 苍白
+    color148: #ececf1, // 胡粉色
+    color149: #ededec, // 粉白
+    color150: #fffbce, // 乳白
+    color151: #fbebe1, // 鱼肚白
+    color152: #ede6d4, // 缟色
+    color153: #e5d39e, // 象牙白
+
+    // 黄金贵
+    color154: #eeac00, // 紫赤金色
+    color155: #f9c500, // 黄金色
+    color156: #ddbc62, // 田赤金色
+
+    // 雪花银
+    color157: #e1dfe8, // 银色
+    color158: #b0bdb8, // 老银色
+);
+
+.color-wrapper {
+    width: 50%;
+}
+
+.wrapper {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+}
+@each $name, $color-value in $list {
+    &.#{$name} {
+        background: #{$color-value};
+    }
+}
