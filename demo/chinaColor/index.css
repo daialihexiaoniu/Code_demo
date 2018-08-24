@@ -1,5 +1,11 @@
+.outside {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
 .color-wrapper {
-  width: 50%;
+  flex: 0 0 50%;
 }
 
 .color-wrapper .wrapper {
@@ -642,7 +648,7 @@
 }
 
 .color-content {
-  width: 50%;
+  flex: 0 0 50%;
   height: 100px;
   border: 1px solid #ccc;
 }
